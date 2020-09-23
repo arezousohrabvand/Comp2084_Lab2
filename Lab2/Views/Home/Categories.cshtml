@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Categories";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Categories</h1>
+
+
+
+<!--Categories/Index that shows this list of categories-->
+
+<ul>
+    <li>
+        <a asp-controller="categories" asp-action="Details" asp-route-category="Food">Food</a>
+    </li>
+    <li>
+        <a asp-controller="categories" asp-action="Details" asp-route-category="Tech">Tech</a>
+    </li>
+    <li>
+        <a asp-controller="categories" asp-action="Details" asp-route-category="Sports">Sports</a>
+    </li>
+
+</ul>
+
